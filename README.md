@@ -5,7 +5,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
-[![Documentation](https://img.shields.io/badge/docs-latex--manual-red)](docs/PoDESL User Manual.pdf)
+
 
 ---
 
