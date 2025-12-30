@@ -111,32 +111,18 @@ git clone https://github.com/vahid2510/PoDESL.git
 cd PoDESL
 pip install -r requirements.txt
 ```
-Running Your First Simulation
+### Running Your First Simulation
 Via Command Line:
-bash
-1
+```bash
 python -m podesl.cli run examples/truss2d_simple.dsl
+```
 Via Web IDE:
-bash
-1
+```bash
 python -m podesl.cli --ide
+```
 Open your browser to http://localhost:5000 and start editing.
-Example Walkthrough:
-Here's a simple 2D truss problem:
-dsl
-12345678910
-PROBLEM "Solid: Truss2D: Static"
-GIVEN
-  nodes = [[0,0], [1,0], [1,1]]
-  elems = [[0,1], [1,2]]
-  E = 210e9
-  loads = [[2, 0.0, -1000.0]]
-  fix = [[0, "both", 0.0], [1, "uy", 0.0]]
-REPORT
-  print U
-  export "displacements.csv" U
-This defines a three-node truss, applies a downward load at node 2, fixes nodes 0 and 1, and prints/export the nodal displacements.
-📚 Documentation
+
+### 📚 Documentation
 The official reference is the PoDESL User Manual, a comprehensive 200+ page document auto-generated from the source code and examples.
 
 Chapter 1: DSL Overview (Grammar, Syntax, Examples, Style Guide)
@@ -148,7 +134,7 @@ Chapter 6: Thermal and Thermo-Mechanical Solvers (Equations, 1D/2D/3D, Coupling)
 Chapter 7: Testing, Build, and Release Process
 Chapter 8: Detailed Solver Documentation (80+ solvers)
 Appendices: Formula Reference, Example Directory
-🤝 Contributing
+### 🤝 Contributing
 Contributions are welcome! Please follow these guidelines:
 
 Read the Manual: Familiarize yourself with the architecture and coding standards outlined in the manual (especially Chapters 1, 3, and 7).
@@ -158,7 +144,7 @@ Update Tests: Add unit tests under tests/ and ensure tools/smoke_examples.py pas
 Document Changes: Update the manual, README.md, and any relevant examples.
 For major changes, open an issue first to discuss the proposed feature.
 
-📊 Use Cases
+### 📊 Use Cases
 PoDESL is designed for a wide range of applications:
 
 Academic Research & Teaching: Ideal for demonstrating FEM concepts, conducting benchmark studies, and assigning projects.
