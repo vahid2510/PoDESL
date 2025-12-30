@@ -1,0 +1,534 @@
+{
+  "count": 132,
+  "duration": 509.2513792514801,
+  "results": [
+    {
+      "path": "D:/fil/Project/programing/examples/axisym_q4_ring.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/bar1d_static.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/bar1d_thermoelastic_example.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/beam1d_modal_cantilever.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/beam_buckling_pinned_pinned.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/beam_modal_cantilever.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/beam_plot_export.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/beam_static.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/contact1d_basic.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/contact1d_gap.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/cook_membrane.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/dynamics_mck.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/eigen_generalized_2x2.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/elas2d_plane_strain_rect.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/elas2d_plane_stress_thermal_rect.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/elas2d_ps_edgeload_rect.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/elas2d_ps_rect.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/elas2d_ps_train.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/elastic3d_hex8.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/elastic3d_tet4.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/equations_linear.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_beamcolumn_nonlinear.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_beamcolumn_static.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_buckling_col.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_buckling_L.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_cantilever.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_cantilever_udl.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_L_modal.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_L_static.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_linear.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_loadstep.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_modal_beam.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_modal_consistent_L.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_pdelta.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_pdelta_L.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_pdelta_portal.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_portal.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_portal_point.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_portal_udl.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_postbuckling.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_staticnl_portal.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame2d_transient_impulse.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame3d_beamcolumn_modal.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/frame3d_beamcolumn_static.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat1d_bar.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat1d_bar_transient.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat1d_plot.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat1d_steady.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat2d_q4_block.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat2d_q4_plate.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat2d_q4_transient.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat2d_rect_steady.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat2d_square_transient.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat2d_steadybc_rect.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat2d_t3_patch.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat2d_t3_transient.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat2d_transient_bc_rect.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat2d_transient_conv_square.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat2d_transient_q4.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat2d_transient_rect.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat2d_transient_square.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat2d_transient_t3.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat3d_cube.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat3d_transient_hex8.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat3d_transient_tet4.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/heat_axi_transient_ring.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/help_in_dsl.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/linear_system.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plane2d_q4_modal_block.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plane2d_q4_static_block.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plane2d_q4_thermoelastic_block.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plane_strain_plate.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plane_strain_q4.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plane_strain_q4_block.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plane_strain_t3.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plane_stress_q4_cantilever.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/planestress_q4_plate.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/planestress_t3_cantilever.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plastic_tension.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plate2d_mindlin_modal_block.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plate2d_mindlin_modal_square.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plate2d_mindlin_square.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plate2d_mindlin_static_block.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plate_bending_q4.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plate_heat_q4.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plate_heat_t3.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plate_mindlin_rect.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plate_mindlin_winkler_rect.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plate_q4.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plate_q4_traction.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plate_t3.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/plate_t3_traction.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/ps_plate_plastic.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/ps_plate_plastic_mesh.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/ps_plate_plastic_vm.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/ps_vonmises_vtk.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/shell2d_mindlin_plate.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/shell_flat_dkt_rect.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/shell_membrane_panel.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/solid3d_hex20_modal.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/solid3d_hex20_static.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/solid3d_hex8_nonlinear.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/solid3d_hex8_transient.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/solid_axisym_q4_ring.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/study_fusion_steady.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/study_fusion_transient.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/study_montecarlo_bar.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/study_optimize_bar.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/study_scenarios_bar.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/thermal1d_steady.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/thermal1d_transient.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/thermomech2d_ps_coupled_plate.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss2d.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss2d_buckling_simple.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss2d_cantilever.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss2d_ep_pull.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss2d_export.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss2d_geomnl_arc.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss2d_linear_bridge.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss2d_modal_bar.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss2d_modal_simple.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss2d_modal_two_bar.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss2d_nonlinear_pull.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss2d_simple.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss2d_snap.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss2d_static.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss2d_tri.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss2d_two_bar.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss3d_single_bar.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss3d_square_braced.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss3d_v.dsl",
+      "status": "ok"
+    },
+    {
+      "path": "D:/fil/Project/programing/examples/truss3d_v_modal.dsl",
+      "status": "ok"
+    }
+  ]
+}

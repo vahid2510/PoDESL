@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PoDESL IDE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <aside id="sidebar">
+        <div class="brand">
+          <div>
+            <h1>PoDESL IDE</h1>
+            <p class="subtitle">Interactive FEM coding lab</p>
+          </div>
+          <div class="status-pill" id="serverStatus">...</div>
+        </div>
+        <section class="sidebar-section">
+          <header>
+            <h2>Examples</h2>
+            <button class="ghost" id="refreshExamples">Refresh</button>
+          </header>
+          <input
+            type="search"
+            id="exampleSearch"
+            placeholder="Filter DSL files..."
+            autocomplete="off"
+          />
+          <ul id="exampleList"></ul>
+        </section>
+        <section class="sidebar-section">
+          <header>
+            <h2>Run History</h2>
+            <button class="ghost" id="clearHistory">Clear</button>
+          </header>
+          <ul id="historyList"></ul>
+        </section>
+        <section class="sidebar-section help-panel">
+          <header>
+            <h2>Help</h2>
+            <button class="ghost" id="loadHelp">Load</button>
+          </header>
+          <input
+            type="search"
+            id="helpSearch"
+            placeholder="Search problem or code"
+            autocomplete="off"
+          />
+          <div id="helpMatches"></div>
+        </section>
+      </aside>
+      <main id="workspace">
+        <nav id="menuBar">
+          <div class="menu-group">
+            <span>File</span>
+            <div class="menu-items">
+              <button data-menu="new-file">New File</button>
+              <button data-menu="save-file">Save</button>
+              <button data-menu="save-as">Save As...</button>
+              <button data-menu="open-notebook">Notebook Mode</button>
+              <button data-menu="open-editor">Editor Mode</button>
+              <button data-menu="open-settings">Job Settings</button>
+              <button data-menu="open-template">Template Builder</button>
+            </div>
+          </div>
+          <div class="menu-group">
+            <span>Tools</span>
+            <div class="menu-items">
+              <button data-menu="run">Run</button>
+              <button data-menu="run-notebook">Run Notebook</button>
+              <button data-menu="export">Export Abaqus</button>
+              <button data-menu="copy">Copy Result</button>
+              <button data-menu="chart">Plot Chart</button>
+              <button data-menu="report">Generate Report</button>
+              <button data-menu="format">Format Document</button>
+            </div>
+          </div>
+        </nav>
+        <div id="statusBar">Ready</div>
+        <div id="tabBar"></div>
+        <div id="editor"></div>
+        <section id="notebookPane" class="hidden">
+          <header>
+            <h3>Notebook Mode</h3>
+            <div class="notebook-actions">
+              <button id="addNotebookCell">Add Cell</button>
+              <button id="runNotebookAll">Run All</button>
+              <button id="toggleNotebookMode">Back to Editor</button>
+            </div>
+          </header>
+          <div id="notebookCells"></div>
+        </section>
+        <section id="panels">
+          <div class="panel">
+            <header>
+              <h3>Console</h3>
+              <div class="panel-actions">
+                <span class="hint">Ctrl+Enter to run</span>
+              </div>
+            </header>
+            <pre id="consoleOutput"></pre>
+          </div>
+          <div class="panel secondary">
+            <header>
+              <h3>Result • Reports • Help</h3>
+              <div class="panel-actions">
+                <button class="ghost" id="clearResult">Clear</button>
+              </div>
+            </header>
+            <div id="resultView"></div>
+            <section id="chartTools">
+              <div class="chart-fields">
+                <label>
+                  Chart X expression
+                  <input type="text" id="chartX" placeholder="result['time']" />
+                </label>
+                <label>
+                  Chart Y expression
+                  <input type="text" id="chartY" placeholder="result['u'][:,0]" />
+                </label>
+                <button class="ghost" id="plotChart">Plot Chart</button>
+              </div>
+              <canvas id="chartCanvas"></canvas>
+            </section>
+            <section id="reportTools">
+              <label>
+                Report notes
+                <textarea id="reportNotes" placeholder="Observations, boundary conditions, etc."></textarea>
+              </label>
+              <label>
+                Metrics (one per line, e.g. max_disp = np.max(result['u']))
+                <textarea id="reportMetrics"></textarea>
+              </label>
+              <button class="ghost" id="generateReport">Download Report</button>
+            </section>
+            <article id="helpDetails"></article>
+          </div>
+        </section>
+      </main>
+    </div>
+    <div id="modalOverlay" class="hidden">
+      <div id="modalBox">
+        <header>
+          <h3 id="modalTitle"></h3>
+          <button id="closeModal" class="ghost">×</button>
+        </header>
+        <div id="modalBody"></div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.32.2/ace.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.32.2/ext-language_tools.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.6/chart.umd.min.js" crossorigin="anonymous"></script>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

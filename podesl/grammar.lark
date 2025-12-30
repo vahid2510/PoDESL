@@ -1,0 +1,62 @@
+?start: NLS* block (NLS block)* NLS?
+
+?block: problem
+      | given
+      | equations
+      | solve
+      | report
+
+problem: "PROBLEM" STRING                      -> problem
+
+given: "GIVEN" NLS INDENT NLS stmt_lines DEDENT        -> given
+equations: "EQUATIONS" (NLS INDENT NLS stmt_lines DEDENT)? -> equations
+solve: "SOLVE" NLS INDENT NLS stmt_lines DEDENT        -> solve
+report: "REPORT" NLS INDENT NLS stmt_lines DEDENT      -> report
+
+stmt_lines: stmt (NLS* stmt)* NLS*
+
+?stmt: assignment
+     | command
+     | COMMENT
+
+assignment: NAME "=" expr                      -> assign
+
+// e.g. print x   or   export "file" fields = [w, M]
+command: NAME (NAME | string | kvpair | call)* -> command
+
+kvpair: NAME "=" expr
+call: NAME "(" [args] ")"                      -> call
+?args: expr ("," expr)*
+
+// ---------- literals ----------
+?expr: matrix
+     | list
+     | number
+     | string
+     | call
+     | NAME
+
+matrix : "[" NLS? list (matrix_sep list)* NLS? "]" -> matrix
+matrix_sep: NLS? "," NLS?
+
+list   : "[" NLS? elements? NLS? "]"                -> list
+elements: expr (NLS? "," NLS? expr)*
+
+string : STRING
+number : SIGNED_NUMBER
+
+COMMENT: /#[^\n]*/
+
+%import common.CNAME -> NAME
+%import common.SIGNED_NUMBER
+%import common.ESCAPED_STRING -> STRING
+%import common.NEWLINE -> NL
+%import common.WS_INLINE
+
+%ignore WS_INLINE
+%ignore COMMENT
+
+NLS: NL
+
+INDENT: "INDENT"
+DEDENT: "DEDENT"
